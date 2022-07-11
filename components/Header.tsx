@@ -19,7 +19,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`${isScroll && "bg-[#141414]"}`}>
+    <header className={`${isScroll && "bg-[#141414] z-[33]"} `}>
       <div className="flex items-center space-x-2 md:space-x-10">
         <img
           src="https://rb.gy/ulxxee"
